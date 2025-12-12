@@ -21,7 +21,7 @@ app.use('/images', express.static(path.join(__dirname, 'images')));
 
 
 // --- 2. MongoDB Connection ---
-const MONGODB_URI = 'mongodb+srv://sudeep:<db_password>@cluster0.mopalea.mongodb.net/?appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://sudeep:sudeep@cluster0.mopalea.mongodb.net/?appName=Cluster0';
 mongoose.connect(MONGODB_URI)
     .then(() => console.log('MongoDB successfully connected'))
     .catch(err => console.error('MongoDB connection error:', err));
