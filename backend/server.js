@@ -178,4 +178,4 @@ async function seedDatabase() {
 }
 
 // Uncomment and run seedDatabase() once to populate your DB
-// seedDatabase();
+seedDatabase();
