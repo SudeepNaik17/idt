@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 // The base URL where your Node.js server is running
-const API_BASE_URL = 'http://localhost:5000/api/places';
+const API_BASE_URL = ' https://idt-a8aa.onrender.com/api/places';
 const PORT = 5000;
 
 function App() {
